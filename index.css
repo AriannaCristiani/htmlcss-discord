@@ -24,7 +24,6 @@ ol {
 }
 
 .debug.hero {
-	background-color: rgb(16, 16, 71);
 	color: white;
 	padding: 50px 0;
 }
@@ -153,7 +152,20 @@ ol {
 	display: flex;
 	gap: 16px;
 	align-items: center;
+	color: white;
 }
+.login-cta {
+	padding: 10px 30px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: white;
+	color: rgb(81, 81, 255);
+}
+
+ header {
+	background-image: url(./img/jumbo.png);
+	background-size: 100%
+ }
 
 /* HERO */
 .hero .col-100 {
@@ -164,6 +176,11 @@ ol {
 .hero .row {
 	justify-content: center;
 }
+
+.hero {
+   
+}
+
 
 /* Footer */
 .page-footer {
