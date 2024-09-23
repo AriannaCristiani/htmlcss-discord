@@ -16,6 +16,14 @@ ol {
 	list-style: none;
 }
 
+li {
+	padding-top: 10px;
+}
+
+.blue {
+	color: rgb(56, 126, 255);
+}
+
 /* DEBUG */
 .debug .navbar .row > * {
 	background-color: orange;
@@ -73,13 +81,13 @@ ol {
 }
 
 .page-footer .debug .row > .col-33 {
-	border: 2px dashed black;
-	background-color: rgb(255, 137, 124);
+	/* border: 2px dashed black;
+	background-color: rgb(255, 137, 124); */
 }
 
 .page-footer .debug .row > .col-16 {
-	border: 2px dashed white;
-	background-color: rgb(114, 223, 217);
+	/* border: 2px dashed white;
+	background-color: rgb(114, 223, 217); */
 }
 
 /* LAYOUT */
