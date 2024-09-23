@@ -20,6 +20,10 @@ li {
 	padding-top: 10px;
 }
 
+hr {
+	color:  rgb(56, 126, 255);
+}
+
 .blue {
 	color: rgb(56, 126, 255);
 }
@@ -177,6 +181,10 @@ li {
 	color: rgb(80, 80, 255);
 }
 
+.navbar {
+	padding-top: 10px;
+}
+
 
 /* HERO */
 .hero .col-100 {
@@ -209,7 +217,7 @@ h1{
 	color: rgb(14, 14, 46);
  }
 
- .download-footer {
+ .button-footer {
 	padding: 8px 12px;
 	line-height: 30px;
 	font-size: 20px;
