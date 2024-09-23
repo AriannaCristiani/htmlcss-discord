@@ -29,9 +29,8 @@ ol {
 }
 
 .debug.hero .row > * {
-	border: 2px dashed black;
-	background-color: rgb(255, 96, 255);
-	min-height: 400px;
+	min-height: 245px;
+	align-items: center;
 }
 
 .debug.feature {
@@ -101,7 +100,9 @@ ol {
 }
 
 .col-100 {
-	width: 100%;
+	width: 90%;
+	text-align: center;
+	font-size: 20px;
 }
 
 .col-80 {
@@ -145,7 +146,7 @@ ol {
 /* HEADER */
 .main-header {
 	padding: 16px 0;
-	background-color: aqua;
+	background-color: rgb(55, 95, 226);
 }
 
 .navbar .menu {
@@ -155,17 +156,15 @@ ol {
 	color: white;
 }
 .login-cta {
-	padding: 10px 30px;
-	border-radius: 50%;
+	padding: 8px 12px;
+	line-height: 30px;
+	font-size: 12px;
+	border-radius: 12px;
 	text-align: center;
 	background-color: white;
-	color: rgb(81, 81, 255);
+	color: rgb(80, 80, 255);
 }
 
- header {
-	background-image: url(./img/jumbo.png);
-	background-size: 100%
- }
 
 /* HERO */
 .hero .col-100 {
@@ -173,13 +172,38 @@ ol {
 	margin: 0 auto;
 }
 
+h1{
+	font-size: 40px;
+}
+
 .hero .row {
 	justify-content: center;
 }
 
 .hero {
-   
-}
+	background-image: url(./img/jumbo.png);
+	background-size: 100%
+ }
+
+ .download {
+	padding: 8px 12px;
+	line-height: 30px;
+	font-size: 20px;
+	border-radius: 12px;
+	text-align: center;
+	background-color: white;
+	color: rgb(14, 14, 46);
+ }
+
+ .open {
+	padding: 8px 12px;
+	line-height: 30px;
+	font-size: 20px;
+	border-radius: 12px;
+	text-align: center;
+	background-color: rgb(63, 63, 63);
+	color: white;
+ }
 
 
 /* Footer */
