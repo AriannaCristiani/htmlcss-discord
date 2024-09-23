@@ -29,7 +29,7 @@ ol {
 }
 
 .debug.hero .row > * {
-	min-height: 245px;
+	min-height: 120px;
 	align-items: center;
 }
 
@@ -38,7 +38,7 @@ ol {
 }
 
 .debug.feature .row > * {
-	border: 2px dashed black;
+	/* border: 2px dashed black; */
 	min-height: 300px;
 	
 }
@@ -116,7 +116,6 @@ ol {
 
 .col-60 {
 	width: 60%;
-	background-color: white;
 }
 
 .col-33 {
@@ -126,6 +125,7 @@ ol {
 .col-16 {
 	width: calc(100% / 6);
 }
+
 
 /* UTILITIES */
 .order-first {
@@ -209,6 +209,9 @@ h1{
 	color: white;
  }
 
+.buttons {
+	padding-top: 30px;
+}
 
 /* Footer */
 .page-footer {
