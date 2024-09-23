@@ -40,15 +40,16 @@ ol {
 .debug.feature .row > * {
 	border: 2px dashed black;
 	min-height: 300px;
+	
 }
 
-.debug.feature .col-40 {
+/* .debug.feature .col-40 {
 	background-color: rgb(255, 158, 174);
-}
+} */
 
-.debug.feature .col-60 {
+/* .debug.feature .col-60 {
 	background-color: rgb(82, 121, 196);
-}
+} */
 
 .debug.cta-download {
 	padding: 50px 0;
@@ -115,6 +116,7 @@ ol {
 
 .col-60 {
 	width: 60%;
+	background-color: white;
 }
 
 .col-33 {
@@ -182,10 +184,12 @@ h1{
 
 .hero {
 	background-image: url(./img/jumbo.png);
-	background-size: 100%
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
  }
 
- .download {
+.download {
 	padding: 8px 12px;
 	line-height: 30px;
 	font-size: 20px;
@@ -195,7 +199,7 @@ h1{
 	color: rgb(14, 14, 46);
  }
 
- .open {
+.open {
 	padding: 8px 12px;
 	line-height: 30px;
 	font-size: 20px;
