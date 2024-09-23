@@ -30,26 +30,26 @@ hr {
 
 /* DEBUG */
 .debug .navbar .row > * {
-	background-color: orange;
-	border: 2px dashed black;
+	/* background-color: orange;
+	border: 2px dashed black; */
 	padding: 8px;
 }
 
-.debug.hero {
+.hero {
 	color: white;
 	padding: 50px 0;
 }
 
-.debug.hero .row > * {
+.hero .row > * {
 	min-height: 120px;
 	align-items: center;
 }
 
-.debug.feature {
+.feature {
 	padding: 50px 0;
 }
 
-.debug.feature .row > * {
+.feature .row > * {
 	/* border: 2px dashed black; */
 	min-height: 300px;
 	
@@ -63,11 +63,11 @@ hr {
 	background-color: rgb(82, 121, 196);
 } */
 
-.debug.cta-download {
+.cta-download {
 	padding: 50px 0;
 }
 
-.debug.cta-download {
+.cta-download {
 	/* background-color: rgb(57, 126, 57);
 	border: 2px dashed black; */
 	color: black;
@@ -76,11 +76,11 @@ hr {
 
 }
 
-.page-footer .debug {
+.page-footer {
 	padding: 30px 0;
 }
 
-.page-footer .debug .row > * {
+.page-footer .row > * {
 	min-height: 300px;
 }
 
@@ -182,7 +182,8 @@ hr {
 }
 
 .navbar {
-	padding-top: 10px;
+	padding-top: 20px;
+	
 }
 
 
