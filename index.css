@@ -227,3 +227,6 @@ h1 {
 	font-size: 12px;
 }
 
+footer .navbar {
+	border-top: solid thin rgb(56, 126, 255) ;
+}
