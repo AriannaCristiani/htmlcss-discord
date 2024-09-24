@@ -46,9 +46,6 @@ h1 {
 	padding: 50px 0;
 }
 
-.feature .row>* {
-	min-height: 300px;
-}
 
 .cta-download {
 	padding: 50px 0;
@@ -56,7 +53,6 @@ h1 {
 
 .cta-download {
 	color: black;
-	min-height: 600px;
 	text-align: center;
 
 }
@@ -231,6 +227,3 @@ h1 {
 	font-size: 12px;
 }
 
-.page-footer .row>* {
-	min-height: 300px;
-}
